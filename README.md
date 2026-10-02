@@ -2,6 +2,8 @@
 
 Bank-wise data-quality controls and technical-decline monitoring on public NPCI UPI remitter statistics.
 
+*Work in progress: one month loaded so far; multi-month analysis next.*
+
 ## What it does
 - Loads the NPCI Top 50 remitter file (downloaded manually) and runs seven controls: period label, row count, rank integrity, duplicate names, sort order, Approved + BD + TD within rounding of 100, missing values.
 - Logs exceptions (banks showing 100% approved with zero declines) and excludes them from rankings.

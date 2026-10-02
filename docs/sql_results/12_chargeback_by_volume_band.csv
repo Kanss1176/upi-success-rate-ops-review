@@ -1,0 +1,4 @@
+band,banks,txns,cb_received,per_million,accept_rate,outlier_rows
+1_large (100M+),26,83983367916.0,546953.0,6.51,0.2421,0.0
+2_mid (5M-100M),67,8411970064.0,228638.0,27.18,0.3333,60.0
+"3_small (<5M, not ranked)",395,616607167.0,16808.0,27.26,0.2143,0.0
