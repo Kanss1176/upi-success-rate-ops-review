@@ -4,7 +4,7 @@ Bank-wise data-quality controls and monitoring on public NPCI UPI statistics. Tw
 a remitter success-rate monitor (technical vs business declines) and a chargeback monitor.
 
 
-   ## Module 1: Remitter success-rate monitor (single-month snapshot)
+## Module 1: Remitter success-rate monitor (single-month snapshot)
 - Loads the NPCI Top 50 remitter file (downloaded manually) and runs seven controls: period label, row count, rank integrity, duplicate names, sort order, Approved + BD + TD within rounding of 100, missing values.
 - Logs exceptions (banks showing 100% approved with zero declines) and excludes them from rankings.
 - Flags banks by technical-decline (TD) rate: OUTLIER at 1% or more, WATCH at 3x the median. These cut-offs are my assumptions, not NPCI standards.
