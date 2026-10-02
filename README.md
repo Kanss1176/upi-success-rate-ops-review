@@ -20,7 +20,7 @@ Four monthly NPCI chargeback tables (Statistics, Ecosystem Statistics, Chargebac
 Chargebacks are disputes, not failed payments, so this is a separate measure from the TD/BD view above.
 
 - **Controls (CB1 to CB9):** header layout, duplicate codes, one name under two codes, missing or negative counts, accepted + re-presented = received, published ratio = received / transactions, chargebacks above transactions, row-count swing, and material entries missing versus the prior month. 12 tests cover them.
-- **Result:** transactions grew about 6% (22.6 to 24.0 billion) while chargebacks per million stayed near 8 to 9. 14 entries were outliers in at least 3 of 4 months; together they carry 2.2% of transactions and 18.4% of chargebacks (about 71 per million against 7.1 for the rest).
+- **Result:** transactions grew about 6% (22.6 to 24.0 billion) while chargebacks per million fell from 9.3 to 8.3 (April to July). 14 entries were outliers in at least 3 of 4 months; together they carry 2.2% of transactions and 18.4% of chargebacks (about 71 per million against 7.1 for the rest).
 - **Thresholds are my assumptions:** minimum 5 million transactions to rank, robust z-score above 3.5, "persistent" = 3 of 4 months.
 - Full write-up: [`docs/chargeback_findings.md`](docs/chargeback_findings.md)
 
